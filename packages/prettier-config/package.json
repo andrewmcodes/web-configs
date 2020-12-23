@@ -2,7 +2,7 @@
   "name": "prettier-config",
   "description": "@andrewmcode's prettier config",
   "homepage": "https://github.com/andrewmcodes/web-configs/tree/main/packages/prettier-config#readme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/prettier-config.js",
   "author": {
     "email": "andrewmcodes@protonmail.com",
