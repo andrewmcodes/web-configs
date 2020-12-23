@@ -1,0 +1,23 @@
+{
+  "name": "web-configs",
+  "version": "1.0.0",
+  "description": "@andrewmcode's common configs for web development",
+  "main": "index.js",
+  "repository": "https://github.com/andrewmcodes/web-configs",
+  "author": "andrewmcodes <andrew@andrewm.codes> (@andrewmcodes)",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@changesets/cli": "^2.12.0",
+    "lerna": "^3.22.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "publish-ci": "lerna publish from-package -y",
+    "changeset": "changeset",
+    "test": "echo 1",
+    "version-bump": "lerna version --no-push"
+  }
+}
