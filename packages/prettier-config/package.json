@@ -1,0 +1,36 @@
+{
+  "name": "prettier-config",
+  "description": "@andrewmcode's prettier config",
+  "homepage": "https://github.com/andrewmcodes/web-configs/tree/main/packages/prettier-config#readme",
+  "version": "1.0.1",
+  "main": "lib/prettier-config.js",
+  "author": {
+    "email": "andrew@andrewm.codes",
+    "name": "Andrew Mason",
+    "url": "https://andrewm.codes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmcodes/web-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewmcodes/web-configs/issues"
+  },
+  "keywords": [
+    "andrewmcodes",
+    "prettier",
+    "prettier-config"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "@andrewmcodes:registry": "https://registry.npmjs.org"
+  },
+  "sideEffects": false
+}
