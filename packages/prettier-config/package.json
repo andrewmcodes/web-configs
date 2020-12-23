@@ -5,9 +5,8 @@
   "version": "1.0.1",
   "main": "lib/prettier-config.js",
   "author": {
-    "email": "andrew@andrewm.codes",
-    "name": "Andrew Mason",
-    "url": "https://andrewm.codes"
+    "email": "andrewmcodes@protonmail.com",
+    "name": "Andrew Mason"
   },
   "repository": {
     "type": "git",
@@ -28,9 +27,5 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "license": "MIT",
-  "publishConfig": {
-    "access": "public",
-    "@andrewmcodes:registry": "https://registry.npmjs.org"
-  },
   "sideEffects": false
 }
